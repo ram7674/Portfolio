@@ -1,0 +1,38 @@
+.home-container{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(13, 43, 70);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-card{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: 3px solid rgb(221, 118, 63);
+}
+.card-para{
+    font-size: 25px;
+    color: #fff;
+    padding-left: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 676px){
+    .home-card{
+        height: 50%;
+        width: 95%;
+    }
+    .card-para{
+        font-size: 20px;
+        color: #fff;
+        padding-left: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
