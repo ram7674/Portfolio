@@ -14,8 +14,8 @@ const Contact = () => {
                 </div>
                 <div className='contact-card'>
                     <GrMail className='contact' />
-                    <p className='contact-type'>Mail : </p>
-                    <h2 className='mail'>ramakrishnachintha43@gmail.com</h2>
+                    <p className='contact-type'>Mail :</p>
+                    <h2 className='mail'>ramakrihsnachintha43@gmial.com</h2>
                 </div>
             </div>
         </div>
